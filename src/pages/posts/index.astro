@@ -1,0 +1,14 @@
+---
+import BaseListing from "../../layouts/BaseListing.astro";
+import { PAGES } from "../../config";
+
+if (PAGES.blog.isActive === false) {
+    return Astro.redirect("/404");
+}
+---
+
+<BaseListing
+    title={PAGES.blog.title}
+    subtitle={PAGES.blog.subtitle}
+    collection="posts"
+/>

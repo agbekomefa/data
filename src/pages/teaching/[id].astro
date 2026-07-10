@@ -1,0 +1,22 @@
+---
+import { getCollection } from "astro:content";
+import BaseDetail from "../../layouts/BaseDetail.astro";
+import { PAGES } from "../../config";
+
+if (PAGES.teaching.isActive === false) {
+    return Astro.redirect("/404");
+}
+
+export async function getStaticPaths() {
+    if (PAGES.teaching.isActive === false) return [];
+    const items = await getCollection("teaching");
+    return items.map((item: any) => ({
+        params: { id: item.id },
+        props: { item },
+    }));
+}
+
+const { id } = Astro.params;
+---
+
+<BaseDetail collection="teaching" id={id} />

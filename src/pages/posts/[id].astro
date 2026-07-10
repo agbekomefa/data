@@ -1,0 +1,22 @@
+---
+import { getCollection } from "astro:content";
+import BaseDetail from "../../layouts/BaseDetail.astro";
+import { PAGES } from "../../config";
+
+if (PAGES.blog.isActive === false) {
+    return Astro.redirect("/404");
+}
+
+export async function getStaticPaths() {
+    if (PAGES.blog.isActive === false) return [];
+    const items = await getCollection("posts");
+    return items.map((item: any) => ({
+        params: { id: item.id },
+        props: { item },
+    }));
+}
+
+const { id } = Astro.params;
+---
+
+<BaseDetail collection="posts" id={id} />
