@@ -61,7 +61,7 @@ ul li::marker { color: var(--accent); }
 
 .social-link { display: inline-flex; padding: 0.25rem; opacity: 0.75; transition: all 0.3s ease; }
 .social-link:hover { opacity: 1; color: var(--accent); transform: rotate(6deg); }
-.social-link svg { width: 28px; height: 28px; stroke-width: 1.5px; transition: transform 0.2s ease; }
+.social-link svg { width: 24px; height: 24px; stroke-width: 1.5px; transition: transform 0.2s ease; }
 .social-link:hover svg { stroke: var(--accent); }
 
 .sidebar { width: 280px; height: 100vh; position: sticky; top: 0; padding: 4rem 1.5rem 1.5rem; display: flex; flex-direction: column; gap: 1.5rem; flex-shrink: 0; background: var(--background); transition: background 0.3s ease; }
@@ -70,6 +70,11 @@ ul li::marker { color: var(--accent); }
 .sidebar-name { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.2; color: var(--foreground); }
 .sidebar-info { font-size: 0.85rem; color: var(--foreground); opacity: 0.7; display: flex; align-items: center; gap: 0.5rem; margin-top: 0.25rem; }
 .sidebar-bio { font-size: 0.9rem; color: var(--foreground); opacity: 0.8; line-height: 1.5; padding: 0 0.5rem; }
+.sidebar-awards { padding: 0 0.5rem; }
+.sidebar-awards-title { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--foreground); opacity: 0.5; margin-bottom: 0.5rem; }
+.sidebar-awards-list { list-style: none; padding: 0; margin: 0; }
+.sidebar-awards-list li { font-size: 0.78rem; color: var(--foreground); opacity: 0.75; line-height: 1.4; padding: 0.2rem 0; border-bottom: 1px dashed var(--border); }
+.sidebar-awards-list li:last-child { border-bottom: none; }
 
 .navbar { padding: 1rem 1.5rem; display: flex; justify-content: flex-start; align-items: center; background: var(--background); transition: background 0.3s ease; }
 @media (min-width: 1024px) { .navbar { position: sticky; top: 0; z-index: 10; } }

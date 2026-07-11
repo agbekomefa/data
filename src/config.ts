@@ -126,6 +126,18 @@ export const SOCIALS = [
     isActive: true,
   },
   {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/ferdinandhassan/",
+    linkTitle: "LinkedIn Profile",
+    isActive: true,
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/agbekomefa",
+    linkTitle: "GitHub Profile",
+    isActive: true,
+  },
+  {
     name: "Email",
     href: "mailto:f@ferdinandhassan.com",
     linkTitle: "Email",
@@ -137,6 +149,8 @@ export const SOCIAL_ICONS: Record<string, string> = {
   ORCID: "ORCID",
   ResearchGate: "ResearchGate",
   GoogleScholar: "GoogleScholar",
+  LinkedIn: "LinkedIn",
+  GitHub: "GitHub",
   Email: "Mail",
 };
 
