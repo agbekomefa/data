@@ -42,8 +42,25 @@ const jsonLd = {
     "@type": "Person",
     name: SITE.author,
     url: SITE.website,
-    jobTitle: "PhD Researcher",
+    jobTitle: "PhD Researcher in Technology and Innovation Management",
     description: SITE.desc,
+    affiliation: {
+        "@type": "Organization",
+        name: "University of Pretoria",
+        department: "Graduate School of Technology Management",
+    },
+    alumniOf: [
+        { "@type": "Organization", name: "University of Pretoria" },
+        { "@type": "Organization", name: "University of Ghana" },
+    ],
+    sameAs: [
+        "https://orcid.org/0009-0005-2171-1332",
+        "https://www.researchgate.net/profile/Ferdinand-Hassan",
+        "https://scholar.google.com/citations?user=XxZIEK0AAAAJ&hl=en",
+        "https://www.linkedin.com/in/ferdinandhassan/",
+        "https://github.com/agbekomefa",
+    ],
+    knowsAbout: ["mass timber", "technology adoption", "UTAUT", "sustainable construction", "lifecycle assessment"],
 };
 ---
 
@@ -95,20 +112,20 @@ const jsonLd = {
         </style>
 
         <link rel="canonical" href={canonicalURL} />
-        <title>{title} | {SITE.title}</title>
-        <meta name="title" content={`${title} | ${SITE.title}`} />
+        <title>{title && title !== "Home" ? `${title} | ${SITE.title}` : SITE.title}</title>
+        <meta name="title" content={title && title !== "Home" ? `${title} | ${SITE.title}` : SITE.title} />
         <meta name="description" content={description} />
         <meta name="author" content={SITE.author} />
 
         <meta property="og:type" content={ogType} />
         <meta property="og:url" content={Astro.url} />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={title && title !== "Home" ? title : SITE.title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={new URL(ogImage, Astro.url)} />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={Astro.url} />
-        <meta property="twitter:title" content={title} />
+        <meta property="twitter:title" content={title && title !== "Home" ? title : SITE.title} />
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content={new URL(ogImage, Astro.url)} />
 

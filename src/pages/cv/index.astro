@@ -17,7 +17,7 @@ const { Content } = await render(cvEntry);
 const { name, title, experience = [], education = [] } = cvEntry.data;
 ---
 
-<BaseLayout title={PAGES.cv.title}>
+<BaseLayout title={PAGES.cv.title} description={PAGES.cv.description}>
     <header class="page-header">
         <h1 class="page-title">{PAGES.cv.title}</h1>
         <p class="page-subtitle">{PAGES.cv.subtitle}</p>

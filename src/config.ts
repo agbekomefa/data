@@ -49,41 +49,49 @@ export const PAGES = {
   home: {
     title: "",
     subtitle: "",
+    description: "Ferdinand Hassan — PhD researcher in technology and innovation management at the University of Pretoria, investigating mass timber adoption in South African construction.",
     active: true,
   },
   publications: {
     title: "Publications",
     subtitle: "Research outputs and academic publications",
+    description: "Journal articles, conference papers, and theses by Ferdinand Hassan on mass timber adoption, technology acceptance, and sustainable construction.",
     isActive: true,
   },
   blog: {
     title: "Blog",
     subtitle: "Notes and reflections",
+    description: "Notes and reflections from Ferdinand Hassan on research, academia, and the built environment.",
     isActive: true,
   },
   projects: {
     title: "Research",
     subtitle: "Current and past research projects",
+    description: "Current and past research projects, including PhD research on mass timber adoption using UTAUT in the South African construction industry.",
     isActive: true,
   },
   talks: {
     title: "Talks",
     subtitle: "Conference presentations and invited talks",
+    description: "Conference presentations and invited talks by Ferdinand Hassan.",
     isActive: false,
   },
   cv: {
     title: "CV",
     subtitle: "Curriculum Vitae",
+    description: "Curriculum vitae of Ferdinand Hassan — education, professional experience, research output, awards, and skills.",
     isActive: true,
   },
   teaching: {
     title: "Teaching",
     subtitle: "Courses and supervision",
+    description: "Teaching, supervision, and training — ETM700 content development, honours supervision, and qualitative research methods.",
     isActive: true,
   },
   consulting: {
     title: "Consulting",
     subtitle: "Academic consulting and advisory services",
+    description: "Academic consulting and advisory services — thesis assistance, research methodology guidance, and SME procurement support.",
     isActive: true,
   },
 };

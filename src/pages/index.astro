@@ -9,7 +9,7 @@ const { Content: BioContent } = bioEntry
     : { Content: null };
 ---
 
-<BaseLayout title={PAGES.home.title || "Home"}>
+<BaseLayout title={PAGES.home.title || "Home"} description={PAGES.home.description}>
     <div class="container-narrow">
         {(PAGES.home.title || PAGES.home.subtitle) && (
             <header class="page-header">
