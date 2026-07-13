@@ -53,6 +53,7 @@ const bio = bioCollection[0]?.data;
     <div class="sidebar-awards">
         <p class="sidebar-awards-title">Selected Awards</p>
         <ul class="sidebar-awards-list">
+            <li>JBCC Research Excellence — 3rd Place (2026)</li>
             <li>3MT Runner-Up — UP (2026)</li>
             <li>Best Presentation — SAIIE (2025)</li>
             <li>Best IE Paper Runner-Up — SAJIE (2025)</li>
@@ -62,3 +63,20 @@ const bio = bioCollection[0]?.data;
         </ul>
     </div>
 </aside>
+
+<script>
+function setSidebarSticky() {
+    const sidebar = document.querySelector('.sidebar');
+    if (!sidebar || window.innerWidth < 1024) return;
+    const sidebarHeight = sidebar.scrollHeight;
+    const viewportHeight = window.innerHeight;
+    if (sidebarHeight > viewportHeight) {
+        sidebar.style.top = `${viewportHeight - sidebarHeight}px`;
+    } else {
+        sidebar.style.top = '0px';
+    }
+}
+setSidebarSticky();
+window.addEventListener('resize', setSidebarSticky);
+document.addEventListener('astro:page-load', setSidebarSticky);
+</script>

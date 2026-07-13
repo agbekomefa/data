@@ -46,6 +46,7 @@ experience:
 
 ## Awards and Fellowships
 
+- **Third Place, JBCC Postgraduate Research Excellence Award** — 20th ASOCSA Built Environment Conference (2026)
 - **Second Runner-Up, 3MT Competition** — University of Pretoria (2026)
 - **Best Presentation Award** — SAIIE Conference (2025)
 - **SAIIE Award Runner-Up** for Best Industrial Engineering Paper Published in the SAJIE (2025)
@@ -57,6 +58,7 @@ experience:
 
 ## Selected Conference Presentations
 
+- 20th Built Environment Conference (ASOCSA) 2026, Pretoria, South Africa
 - International Association for Management of Technology (IAMOT) 2026
 - South African Institute of Industrial Engineering (SAIIE) Conference 2025
 - World Conference on Timber Engineering (WCTE) 2025, Brisbane, Australia
