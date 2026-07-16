@@ -46,6 +46,7 @@ experience:
 
 ## Awards and Fellowships
 
+- **SAIIE Award for Best Industrial Engineering Paper Published in the SAJIE** — Nominated, 2 papers (2026)
 - **Third Place, JBCC Postgraduate Research Excellence Award** — 20th ASOCSA Built Environment Conference (2026)
 - **Second Runner-Up, 3MT Competition** — University of Pretoria (2026)
 - **Best Presentation Award** — SAIIE Conference (2025)

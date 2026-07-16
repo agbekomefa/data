@@ -129,7 +129,7 @@ export const SOCIALS = [
   },
   {
     name: "GoogleScholar",
-    href: "https://scholar.google.com/citations?user=XxZIEK0AAAAJ&hl=en",
+    href: "https://scholar.google.com/citations?user=DJogV-EAAAAJ&hl=en",
     linkTitle: "Google Scholar",
     isActive: true,
   },
