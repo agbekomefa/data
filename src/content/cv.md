@@ -53,9 +53,7 @@ experience:
 - **SAIIE Award Runner-Up** for Best Industrial Engineering Paper Published in the SAJIE (2025)
 - **Golden Key International Honour Society** — South Africa (2025)
 - **GSTM Top Master's Student Research Award** — Project Management (2024)
-- **Mastercard Foundation Scholarship** (2022–2023)
 - **National Society of Black Engineers — Ghana** Distinguished Academic Member Prize (2017)
-- **General Electric (GE) Scholarship** (2016–2017)
 
 ## Selected Conference Presentations
 

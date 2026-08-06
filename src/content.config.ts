@@ -95,6 +95,14 @@ const cv = defineCollection({
     }),
 });
 
+const funding = defineCollection({
+    loader: glob({ pattern: "funding.md", base: "./src/content" }),
+    schema: z.object({
+        name: z.string(),
+        title: z.string(),
+    }),
+});
+
 const consulting = defineCollection({
     loader: glob({ pattern: "**/*.md", base: "./src/content/consulting" }),
     schema: z.object({
@@ -113,6 +121,7 @@ export const collections = {
     'bio': bio,
     'projects': projects,
     'cv': cv,
+    'funding': funding,
     'teaching': teaching,
     'consulting': consulting,
 };

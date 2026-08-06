@@ -76,6 +76,12 @@ export const PAGES = {
     description: "Conference presentations and invited talks by Ferdinand Hassan.",
     isActive: false,
   },
+  funding: {
+    title: "Funding",
+    subtitle: "Scholarships, grants, and research programme funding",
+    description: "Scholarships, grants, and research programme funding received and secured by Ferdinand Hassan.",
+    isActive: true,
+  },
   cv: {
     title: "CV",
     subtitle: "Curriculum Vitae",
@@ -106,6 +112,7 @@ export const NAV_LINKS = [
   { href: "/projects", label: "Research", isActive: true },
   { href: "/teaching", label: "Teaching", isActive: true },
   { href: "/consulting", label: "Consulting", isActive: true },
+  { href: "/funding", label: "Funding", isActive: true },
   { href: "/cv", label: "CV", isActive: true },
   { href: "/posts", label: "Blog", isActive: true },
 ];

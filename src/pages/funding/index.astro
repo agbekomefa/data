@@ -1,0 +1,29 @@
+---
+import { getEntry, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { PAGES } from "../../config";
+
+if (PAGES.funding.isActive === false) {
+    return Astro.redirect("/404");
+}
+
+const fundingEntry = await getEntry("funding", "funding");
+if (!fundingEntry) {
+    throw new Error("Funding content not found. Please ensure src/content/funding.md exists.");
+}
+
+const { Content } = await render(fundingEntry);
+---
+
+<BaseLayout title={PAGES.funding.title} description={PAGES.funding.description}>
+    <header class="page-header">
+        <h1 class="page-title">{PAGES.funding.title}</h1>
+        <p class="page-subtitle">{PAGES.funding.subtitle}</p>
+    </header>
+
+    <div class="container-narrow">
+        <div class="prose max-w-none">
+            <Content />
+        </div>
+    </div>
+</BaseLayout>
