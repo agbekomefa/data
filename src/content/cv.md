@@ -46,11 +46,12 @@ experience:
 
 ## Awards and Fellowships
 
-- **SAIIE Award for Best Industrial Engineering Paper Published in the SAJIE** — Nominated, 2 papers (2026)
+- **SAIIE Award for Best Industrial Engineering Paper Published in the SAJIE** — Winner (2026)
+- **SAIIE Award for Best Industrial Engineering Paper Published in the SAJIE** — Runner-up (2026)
 - **Third Place, JBCC Postgraduate Research Excellence Award** — 20th ASOCSA Built Environment Conference (2026)
 - **Second Runner-Up, 3MT Competition** — University of Pretoria (2026)
 - **Best Presentation Award** — SAIIE Conference (2025)
-- **SAIIE Award Runner-Up** for Best Industrial Engineering Paper Published in the SAJIE (2025)
+- **SAIIE Award for Best Industrial Engineering Paper Published in the SAJIE** — Runner-up (2025)
 - **Golden Key International Honour Society** — South Africa (2025)
 - **GSTM Top Master's Student Research Award** — Project Management (2024)
 - **National Society of Black Engineers — Ghana** Distinguished Academic Member Prize (2017)
