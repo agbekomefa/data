@@ -17,6 +17,25 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  security: {
+    csp: {
+      directives: [
+        "default-src 'self'",
+        "base-uri 'self'",
+        "object-src 'none'",
+        "form-action 'none'",
+        "img-src 'self' data:",
+        "font-src 'self' data:",
+      ],
+      // Theme variables and rendered mathematics use inline style attributes.
+      styleDirective: {
+        resources: [
+          { resource: "'self'", kind: 'element' },
+          { resource: "'unsafe-inline'", kind: 'attribute' },
+        ],
+      },
+    },
+  },
   site: 'https://ferdinandhassan.com',
   integrations: [sitemap()],
 });

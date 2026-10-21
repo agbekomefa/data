@@ -131,6 +131,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"bio">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "consulting": Record<string, {
   id: string;
@@ -139,6 +140,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"consulting">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "cv": Record<string, {
   id: string;
@@ -147,6 +149,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"cv">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "funding": Record<string, {
   id: string;
@@ -155,6 +158,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"funding">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "posts": Record<string, {
   id: string;
@@ -163,6 +167,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"posts">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "projects": Record<string, {
   id: string;
@@ -171,6 +176,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"projects">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "publications": Record<string, {
   id: string;
@@ -179,6 +185,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"publications">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "talks": Record<string, {
   id: string;
@@ -187,6 +194,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"talks">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "teaching": Record<string, {
   id: string;
@@ -195,6 +203,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"teaching">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 
 	};
