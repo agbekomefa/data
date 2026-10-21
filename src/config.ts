@@ -108,7 +108,7 @@ export const PAGES = {
 
 export const NAV_LINKS = [
   { href: "/", label: "Home", isActive: true },
-  { href: "/publications", label: "Publications", isActive: true },
+  { href: "https://www.researchgate.net/profile/Ferdinand-Hassan", label: "Publications", isActive: true },
   { href: "/projects", label: "Research", isActive: true },
   { href: "/teaching", label: "Teaching", isActive: true },
   { href: "/consulting", label: "Consulting", isActive: true },
