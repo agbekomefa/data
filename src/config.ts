@@ -154,7 +154,7 @@ export const SOCIALS = [
   },
   {
     name: "Email",
-    href: "mailto:f@ferdinandhassan.com",
+    href: "mailto:mail@ferdinandhassan.com",
     linkTitle: "Email",
     isActive: true,
   },
